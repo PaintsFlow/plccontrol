@@ -1,0 +1,10 @@
+{
+  "profiles": {
+    "plccontrol": {
+      "commandName": "Project"
+    },
+    "Container (Dockerfile)": {
+      "commandName": "Docker"
+    }
+  }
+}
