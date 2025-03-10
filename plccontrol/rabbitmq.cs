@@ -62,7 +62,6 @@ namespace plccontrol
                     byte[] body = ea.Body.ToArray();
                     var message = Encoding.UTF8.GetString(body);
                     
-                    Console.WriteLine($"message : {message}");
                     string[] switchData = message.Split(", ");
 
                     // 기계 off시 수행
