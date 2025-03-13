@@ -36,12 +36,12 @@ namespace receiveSwitch
                 if (switchdata[1] == "1")
                 {
                     //on
-                    p.SendData(switchdata, slaveId, 0, true);
+                    p.SendData(switchdata, slaveId, (Int32)134, true);
                 }
                 else
                 {
                     //off
-                    p.SendData(switchdata, slaveId, 0, false);
+                    p.SendData(switchdata, slaveId, (Int32)134, false);
                 }
             }
             else if (switchdata[0] == "1")
@@ -49,12 +49,12 @@ namespace receiveSwitch
                 if (switchdata[1] == "1")
                 {
                     //on
-                    p.SendData(switchdata, slaveId, 1, true);
+                    p.SendData(switchdata, slaveId, 135, true);
                 }
                 else
                 {
                     //off
-                    p.SendData(switchdata, slaveId, 1, false);
+                    p.SendData(switchdata, slaveId, 135, false);
                 }
             }
         }
